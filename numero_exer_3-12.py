@@ -17,4 +17,6 @@ match num:
             print("O número não é divisível por 3 nem por 5")    
 
     case _ if num < 0:
-        print("É negativo")
+        print("O número é negativo")
+
+
