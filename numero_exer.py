@@ -1,5 +1,5 @@
 num = 0 
-num = int(input("Insira um número: "))
+num = int(input("Insira um número por favor: "))
 
 match num:
     case 0:
@@ -17,6 +17,7 @@ match num:
             print("O número não é divisível por 3 nem por 5")    
 
     case _ if num < 0:
-        print("O número é  negativo")
+        print("O número é negativo")
+
 
 
