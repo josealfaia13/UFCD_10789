@@ -1,0 +1,15 @@
+notas = []
+
+for i in range(10):
+    nota = float(input(f"Insira a nota do aluno {i+1}: "))
+    notas.append(nota)
+
+media = sum(notas) / len(notas)
+
+contador = 0
+for nota in notas:
+    if nota >= media:
+        contador += 1
+
+print(f"Média da turma: {media:.2f}")
+print(f"Alunos com nota igual ou acima da média: {contador}")
